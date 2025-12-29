@@ -1,67 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>User Login</title>
     <link rel="stylesheet" href="style.css" />
 
     <!-- Font Awesome CDN -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="form-section">
+        <img
+          class="logo"
+          src="https://appclick.ng/portal/uploads/school_content/admin_logo/1692202493-89741823864dcf5fd4617b!appclick-academy-logo-best-tech-training-center-in-ibadan-lagos-nigeria (1).png"
+          src=""
+          alt="AppClick Academy Logo"
+        />
 
-        <!-- LEFT SIDE -->
-         <div class="form-section">
-            <img 
-            class="logo"
-        src="https://appclick.ng/portal/uploads/school_content/admin_logo/1692202493-89741823864dcf5fd4617b!appclick-academy-logo-best-tech-training-center-in-ibadan-lagos-nigeria (1).png"
-            src="" 
-            alt="AppClick Academy Logo"
-            />
+        <h3 class="form-title">User Login</h3>
 
-            <h3 class="form-title">User Login</h3>
+        <form class="login-form">
+          <div class="input-group">
+            <input type="username" placeholder="username" required />
+            <i class="fa-solid fa-envelope icon"></i>
+          </div>
 
-            <form class="login-form">
-                <div class="input-group">
-                    <input type="email" placeholder="Enter your email"
-                    required />
-                    <i class="fa-solid fa-envelope icon"></i>
-                </div>
+          <div class="input-group">
+            <input type="password" placeholder="Password" required />
+            <i class="fa-solid fa-lock icon"></i>
+          </div>
 
-                <div class="input-group">
-                    <input type="password" placeholder="Enter your password" required />
-                    <i class="fa-solid fa-lock icon"></i>
-                </div>
+          <button type="submit" class="btn-login">Sign In</button>
+        </form>
 
-                <button type="submit" class="btn-login">Sign In</button>
-            </form>
+        <div class="forgot-password-container">
+          <i class="fa fa-key"></i>
+          <a href="#">Forgot Password</a>
+        </div>
+      </div>
 
-            <div class="forgot-password-container">
-                <i class="fa fa-key"></i>
-                <a href="#">Forgot Password</a>
-            </div>
-         </div>
-
-         <!-- Right Side-->
-         <div class="image-section">
-            <img 
-             class="login-image"
-             src="https://appclick.ng/portal/uploads/school_content/login_image/1690229717-162752723964bedbd546018!Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2.jpg" 
-             alt="Login Image"
-             />
-
-         </div>
-
+      <!-- Right Side-->
+      <div class="image-section">
+        <img
+          class="login-image"
+          src="https://appclick.ng/portal/uploads/school_content/login_image/1690229717-162752723964bedbd546018!Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2.jpg"
+          alt="Login Image"
+        />
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

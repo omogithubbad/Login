@@ -30,9 +30,12 @@ body {
 }
 
 .logo {
-  width: 50%;
-  margin-bottom: 60px;
-  margin-right: 90px;
+  width: 180px;
+  max-height: 80%;
+  margin: 0 auto 30px;
+  display: block;
+  /* margin-bottom: 60px;
+  margin-right: 90px; */
 }
 
 .form-title {
@@ -127,7 +130,7 @@ body {
 
 .login-image {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -156,9 +159,9 @@ body {
     height: auto;
   }
 
-  .logo {
+  /* .logo {
     width: 45%;
-  }
+  } */
 
   .form-title {
     text-align: center;
@@ -171,36 +174,39 @@ body {
     padding: 50px 30px;
   }
 
-  .logo {
-    width: 55%;
-  }
+  /* .logo {
+    width: 65%;
+  } */
 }
 
 /* LARGE PHONES */
 @media (max-width: 600px) {
-  /* .image-section {
-        display: none;
-        height: auto;
-    } */
-
-  .logo {
-    width: 60%;
-    margin-left: 60px;
-  }
+  /* .logo {
+    align-self: center;
+    margin-left: 0;
+    width: 65%;
+    transform: translateX(25px);
+  } */
 
   .form-section {
     width: 45%;
-    padding: 30pxpx 15px;
+    padding: 30px 15px;
   }
 
   .login-image {
     /* width: 100%; */
-    height: 100vh;
+    height: auto;
+    min-height: 100%;
   }
 
   .input-group input {
     padding: 10px;
     font-size: 15px;
+  }
+
+  .image-section {
+    width: 55%;
+    height: auto;
   }
 
   .btn-login {
@@ -231,11 +237,13 @@ body {
     text-align: center;
   }
 
-  .logo {
-    width: 70%;
-    margin-left: 80px;
+  /* .logo {
+    width: 65%;
+    margin-left: 0;
     margin-top: 10px;
-  }
+    align-self: center;
+    transform: translateX(40px);
+  } */
 
   .forgot-password-container {
     font-size: 10px;
@@ -244,10 +252,12 @@ body {
 
 /* VERY SMALL PHONES */
 @media (max-width: 360px) {
-  .logo {
-    width: 70%;
-    margin-right: 30px;
-  }
+  /* .logo {
+    width: 65%;
+    margin-right: 0;
+    align-self: center;
+    transform: translateX(-15px);
+  } */
 
   .form-title {
     font-size: 20px;
